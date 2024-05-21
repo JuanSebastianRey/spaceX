@@ -3,7 +3,7 @@ export const nameRockets = async(name)=>{
     header__title.innerHTML = "";
     header__title.textContent = name;
     let logo = document.createElement("img");
-    logo.src = "../storage/img/icons/spacex.svg";
+    logo.src = "../storage/img/icons/iconos/spacex.svg";
     logo.style.width = "20%";
     logo.style.height = "100%";
     logo.style.position = "absolute";
