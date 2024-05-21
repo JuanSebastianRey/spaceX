@@ -8,7 +8,7 @@ export const infoName = async(name)=>{
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/rocket.svg")
+    img.setAttribute("src", "storage/img/icons/iconos/rocket.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -45,7 +45,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -74,7 +74,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -104,7 +104,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -133,7 +133,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -168,7 +168,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -199,7 +199,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -229,7 +229,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -259,7 +259,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -296,7 +296,7 @@ export const infoImg = async(imagen)=>{
             div.classList.add('description__container')
             let divFirst = document.createElement('div');
             let img = document.createElement('img');
-            img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+            img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
             divFirst.append(img);
             
             let divLast = document.createElement('div');
@@ -365,7 +365,7 @@ export const infoImg = async(imagen)=>{
         div.style.overflowY = "auto";
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -396,7 +396,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -417,7 +417,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -438,7 +438,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -459,7 +459,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -480,7 +480,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -519,7 +519,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -568,7 +568,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -589,7 +589,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -609,7 +609,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -628,7 +628,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -653,7 +653,7 @@ export const infoImg = async(imagen)=>{
             div.classList.add('description__container')
             let divFirst = document.createElement('div');
             let img = document.createElement('img');
-            img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+            img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
             divFirst.append(img);
             
             let divLast = document.createElement('div');
@@ -690,7 +690,7 @@ export const infoImg = async(imagen)=>{
         div.style.overflowY = "auto";
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -717,7 +717,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -737,7 +737,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -757,7 +757,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -777,7 +777,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -797,7 +797,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -817,7 +817,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -838,7 +838,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -858,7 +858,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -879,7 +879,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -905,7 +905,7 @@ export const infoImg = async(imagen)=>{
         div.style.overflowY = "auto";
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -927,7 +927,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -947,7 +947,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -975,7 +975,7 @@ export const infoImg = async(imagen)=>{
         div.style.overflowY = "auto";
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -996,7 +996,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -1019,7 +1019,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -1044,7 +1044,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -1064,7 +1064,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -1087,7 +1087,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -1107,7 +1107,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -1127,7 +1127,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -1146,7 +1146,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -1168,7 +1168,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -1188,7 +1188,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -1210,7 +1210,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -1230,7 +1230,7 @@ export const infoImg = async(imagen)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "storage/img/icons/iconos/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
