@@ -9,11 +9,17 @@ import {
     informationRockets,
     informationLaunchCostRocket,
     informationFirstFlightRocket,
-    informationWebRocket
+    informationWebRocket,
+    informationTypeCapsule,
+    informationStatusCapsule,
+    informationIdCapsule,
+    informationLastUpdateCapsule,
+    informationlaunchesCapsule,
 } from "./information.js";
 import { 
     tableRocketColum1, 
-    tableRocketColum2
+    tableRocketColum2,
+    tableCapsuleColum1,
 } from "./tables.js";
 import { 
     informRocketEngineThrustSeaLevel, 
@@ -32,7 +38,8 @@ import {
 } from "../modulesComponents/progressBar.js";
 ///
 import { 
-    getAllCapsules 
+    getAllCapsules,
+    getAllCapsulesId 
 } from "../modules/capsules.js";
 
 
@@ -180,10 +187,17 @@ const getCapsulesId = async(e)=>{
     e.target.classList.add('activo');
     
 
-    // let Rocket = await getAllRocketsId(e.target.id);
-    // console.log(Rocket);
+    let Capsule = await getAllCapsulesId(e.target.id);
+    console.log(Capsule);
 
-    // await informationRockets(Rocket.country, Rocket.description)
+    await nameRockets(Capsule.serial)
+    await informationTypeCapsule(Capsule.type)
+    await informationStatusCapsule(Capsule.status)
+    await informationIdCapsule(Capsule.id)
+    await tableCapsuleColum1(Capsule)
+    await informationLastUpdateCapsule(Capsule.last_update)
+    await informationlaunchesCapsule(Capsule.launches)
+
     
 }
 
