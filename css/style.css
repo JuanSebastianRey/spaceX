@@ -9,7 +9,10 @@
 }
 
 body {
-    background: linear-gradient(var(--color--one), var(--color--one--rgba));
+    background-image: url(../storage/img/icons/iconos/space-anime-planet-stars-galaxy-1946861-wallhere.com.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
 }
 
 *::-webkit-scrollbar {
@@ -41,6 +44,7 @@ body {
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
+    flex-direction: column-reverse;
 }
 .load{
     background: linear-gradient(120deg, #ffffff0e 30%, #ffffff23 38%, #f0f0f032 40%, #e5e5e50c 40%);
@@ -92,7 +96,7 @@ body {
 }
 
 .description__container div:last-child h3 {
-    color: var(--color--five);
+    color: var(--color--three);
 }
 
 .description__container div:last-child small,
@@ -119,6 +123,7 @@ body {
     /* background: red; */
     grid-area: section__header;
     display: flex;
+    flex-direction: row;
     overflow-x: auto;
     gap: 10px;
     justify-content: space-evenly;
@@ -232,23 +237,26 @@ body {
     /* background: orange; */
     grid-area: colum__2;
     display: flex;
-    overflow-x: auto;
+    overflow-x:hidden;
+    overflow-y: hidden;
     align-items: center;
+    object-fit: contain;
 }
-
-.section__image>.carousel__item {
-    /* background: violet; */
-    text-align: center;
-    margin: 0 10px;
-
+.rocket{
+    width: 100%;
+    object-fit: contain;
+    animation-name: flo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform: rotate(-55deg);
 }
-
-.section__image>.carousel__item img {
-    width: 305px;
-    height: 190px;
-    border-radius: 10px;
-    object-fit: cover;
-    box-shadow: 0px 0px 10px var(--color--one);
+@keyframes flo{
+50%{
+    transform: translateY(30px) rotate(-45deg);
+}
+}
+.rocketimg{
+    width: 100%;
 }
 
 .section__information__3 {
@@ -313,9 +321,11 @@ body {
     color: var(--color--five);
 }
 
-
 .footer {
-    /* background: coral; */
+    background-image: linear-gradient(#2b0235ab, #2b0331), url(../storage/img/icons/iconos/pattern.svg);
+    box-shadow: 1px 1px 6px 6px #05264d;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
     grid-area: section__footer;
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
@@ -323,38 +333,13 @@ body {
 }
 
 .footer ul {
+    content: "";
     grid-area: footer__menu;
-    background: var(--color--one);
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
-}
-.footer ul::after{
-    content: "";
-    position: relative;
-    margin-top: 10px;
-    right: -36px;
-    bottom: 0;
-    width: 0;
-    height: 0;
-    border-left: 0px solid transparent;
-    border-right: 48px solid transparent;
-    border-bottom: 70px solid var(--color--one);
-}
-.footer ul::before{
-    content: "";
-    position: relative;
-    margin-top: 10px;
-    left: -36px;
-    bottom: 0;
-    width: 0;
-    height: 0;
-    border-left: 48px solid transparent;
-    border-right: 0px solid transparent;
-    border-bottom: 70px solid  var(--color--one);
-    /* border-top-right-radius: 30px; */
 }
 .footer ul li {
     list-style: none;
@@ -367,6 +352,7 @@ body {
     align-items: center;
     color: var(--color--two);
 }
+
 .select{
     padding: 8px 0;
     border-bottom: 4px solid var(--color--five) ;
@@ -468,3 +454,5 @@ progress[value]::-moz-progress-bar {
     border-radius: 10em;
     background: var(--color);
 }
+
+
